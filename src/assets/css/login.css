@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.wrapper {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.login-card {
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+.login-text {
+    font-family: 'Rampart One', cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.login-input {
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    background-color: rgb(10, 9, 9);
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.password {
+    margin-top: 35px;
+}
+
+.login-button {
+    width: 110px;
+    height: 30px;
+    background-color: rgb(10, 9, 9);
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.login-button:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.login-footer {
+    color: white;
+    margin-top: 60px;
+    font-size: 10px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+.add-container {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.add-body {
+    display: flex;
+    justify-content: center;
+}
+
+.add-card {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(10, 9, 9);
+    width: 400px;
+    height: 400px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.add-heading {
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: 'Rampart One', cursive;
+}
+
+.add-file {
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(0, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.back-button {
+    background-color: rgb(10, 9, 9);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
